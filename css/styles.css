@@ -279,6 +279,7 @@ a {
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
+  /* because header and body overwirte card containner => no see radius => use overflow */
   overflow: hidden;
 }
 
